@@ -24,7 +24,7 @@ body {
   padding: 10px;
   margin-bottom: 30px;
   width: 97%;
-  height: 200px;
+  height: 250px;
 }
 
 .profile {
@@ -47,17 +47,17 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  height: 15px;
+  height: 20px;
 }
 .image-contacts {
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   border-radius: 30px;
   margin-right: 5px;
 }
 .text-contacts {
   text-decoration: none;
-  font-size: 10px;
+  font-size: 13px;
   color: black;
 
   &:hover {
@@ -65,8 +65,8 @@ body {
   }
 }
 .avatar {
-  width: 200px;
-  border-radius: 100px;
+  width: 250px;
+  border-radius: 150px;
 }
 .navigation {
   display: flex;
@@ -87,6 +87,7 @@ body {
   text-decoration: none;
   color: black;
   font-family: Roboto;
+  font-size: 20px;
 
   &:hover {
     color: rgb(81, 81, 250);
@@ -116,7 +117,7 @@ body {
   flex-direction: row;
   align-items: center;
   height: 20px;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: bold;
 }
 
@@ -139,8 +140,8 @@ body {
 .years {
   margin-right: 30px;
   color: rgb(104, 104, 104);
-  width: 118px;
-  font-size: 14px;
+  width: 140px;
+  font-size: 18px;
 }
 
 .education-title,
@@ -150,12 +151,12 @@ body {
 
 .description {
   margin: 0;
-  font-size: 12px;
+  font-size: 17px;
   color: rgb(104, 104, 104);
 }
 
 .certificate {
-  font-size: 12px;
+  font-size: 17px;
   color: rgb(104, 104, 104);
   text-decoration: none;
   &:hover {
@@ -177,25 +178,25 @@ body {
 }
 
 .icon {
-  width: 40px;
+  width: 50px;
 }
 
 .skills-description {
   margin: 0 0 0 15px;
-  font-size: 12px;
+  font-size: 17px;
   color: rgb(104, 104, 104);
 }
 
 .information-title {
   margin-right: 30px;
   color: rgb(104, 104, 104);
-  width: 150px;
-  font-size: 14px;
+  width: 190px;
+  font-size: 18px;
 }
 
 .information-description {
   margin: 0 0 0 15px;
-  font-size: 12px;
+  font-size: 18px;
   color: black;
   width: 90%;
 }
@@ -206,16 +207,19 @@ body {
 
 .projects-link {
   text-decoration: none;
+  font-size: 20px;
   color: rgb(104, 104, 104);
   &:hover {
     color: rgb(81, 81, 250);
   }
 }
+
 .footer {
   display: flex;
   justify-content: center;
   margin-top: 20px;
 }
+
 .footer-content {
   display: flex;
   justify-content: space-between;
@@ -227,5 +231,5 @@ body {
 .footer-name,
 .update-date {
   color: rgb(104, 104, 104);
-  font-size: 11px;
+  font-size: 15px;
 }
