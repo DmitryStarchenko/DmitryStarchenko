@@ -110,6 +110,7 @@ body {
 
 .section-content {
   width: 80%;
+  padding: 20px 0;
 }
 
 .title {
@@ -131,6 +132,7 @@ body {
   flex-direction: column;
   gap: 20px;
   width: 80%;
+  padding: 20px 0;
 }
 
 .education-content {
