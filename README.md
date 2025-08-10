@@ -1,11 +1,11 @@
-<p align="center"><img src="./CV/assets/comp.gif"></p>
+<p align="center"><img width="200px" height="200px" src="./CV/assets/comp.gif"></p>
 <br/>
 
-# [My CV](https://dmitry-starchenko.netlify.app)
+<a align="center" href="https://dmitry-starchenko.netlify.app">MY CV</a>
 
 <br/>
 <br/>
-<h2 align="center">📱 Contact Me</h2>
+<h2 align="center">Contact Me</h2>
 <p align="center">
   <a href="mailto:dololob92@gmail.com"><img width="32" height="32" src="https://img.icons8.com/fluency/48/circled-envelope.png" alt="Email" title="Type me on Email"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
