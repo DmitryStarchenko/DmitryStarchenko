@@ -1,7 +1,7 @@
 <p align="center"><img width="200px" height="200px" src="./CV/assets/comp.gif"></p>
 <br/>
 
-<p align="center"><a fontSize="30px" href="https://dmitry-starchenko.netlify.app">MY CV</a></p>
+<h2 align="center"><a fontSize="30px" href="https://dmitry-starchenko.netlify.app">MY CV</a></h2>
 
 <br/>
 <br/>
