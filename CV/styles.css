@@ -234,6 +234,11 @@ body {
 .update-date {
   color: rgb(104, 104, 104);
   font-size: 15px;
+  text-decoration: none;
+}
+
+.footer-name:hover {
+  color: rgb(81, 81, 250);
 }
 
 @media screen and (max-width: 1024px) {
