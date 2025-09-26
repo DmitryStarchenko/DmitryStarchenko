@@ -1,0 +1,77 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 10px;
+  margin-bottom: 30px;
+  width: 97%;
+  height: 250px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 3px;
+}
+
+.name {
+  margin: 0px 0;
+  font-family: Roboto;
+}
+
+.jobTitle {
+  margin: 0 0 10px 0;
+  font-family: Roboto;
+}
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 20px;
+}
+.imageContacts {
+  width: 20px;
+  height: 20px;
+  border-radius: 30px;
+  margin-right: 5px;
+}
+.textContacts {
+  text-decoration: none;
+  font-size: 13px;
+  color: black;
+
+  &:hover {
+    color: rgb(81, 81, 250);
+  }
+}
+.avatar {
+  width: 250px;
+  border-radius: 150px;
+}
+.navigation {
+  display: flex;
+  justify-content: end;
+  width: 40%;
+}
+.navigationList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 3px;
+  padding: 0;
+}
+.navigationItem {
+  text-align: right;
+}
+.navigationLink {
+  text-decoration: none;
+  color: black;
+  font-family: Roboto;
+  font-size: 20px;
+
+  &:hover {
+    color: rgb(81, 81, 250);
+  }
+}

@@ -1,0 +1,55 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sectionTitle {
+  width: 90%;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  text-align: center;
+  font-family: Roboto;
+}
+
+.sectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  padding: 20px 0;
+}
+
+.educationContent {
+  display: flex;
+}
+
+.years {
+  margin-right: 30px;
+  color: rgb(104, 104, 104);
+  width: 145px;
+  font-size: 18px;
+}
+
+.educationTitle {
+  margin: 0;
+}
+
+.description {
+  margin: 0;
+  font-size: 17px;
+  color: rgb(104, 104, 104);
+}
+
+.certificate {
+  font-size: 17px;
+  color: rgb(104, 104, 104);
+  text-decoration: none;
+  &:hover {
+    color: rgb(81, 81, 250);
+  }
+}
+
+.institution {
+  width: 75%;
+}

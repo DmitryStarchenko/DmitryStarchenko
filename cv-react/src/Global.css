@@ -1,0 +1,18 @@
+html {
+  display: flex;
+  justify-content: center;
+  background-image: url("../assets/back.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  width: 60%;
+  height: 100%;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+}
