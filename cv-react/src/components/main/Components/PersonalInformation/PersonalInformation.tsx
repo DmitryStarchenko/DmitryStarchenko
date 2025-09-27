@@ -1,34 +1,21 @@
+import { useTranslation } from "react-i18next";
+import { personalInformation } from "../../../../constants/constants";
 import styles from "./PersonalInformation.module.css";
 
 const PersonalInformation = () => {
+  const { t } = useTranslation();
   return (
     <section id="personal" className={styles.section}>
-      <h2 className={styles.sectionTitle}>Personal information</h2>
+      <h2 className={styles.sectionTitle}>{t("Personal")}</h2>
       <div className={styles.sectionContent}>
-        <div className={styles.title}>
-          Lives:
-          <p className={styles.titleName}>Gomel, Republic of Belarus</p>
-        </div>
-        <div className={styles.title}>
-          Citizenship:
-          <p className={styles.titleName}>Republic of Belarus</p>
-        </div>
-        <div className={styles.title}>
-          Gender:
-          <p className={styles.titleName}>Male</p>
-        </div>
-        <div className={styles.title}>
-          Education:
-          <p className={styles.titleName}>Higher</p>
-        </div>
-        <div className={styles.title}>
-          Date of birth:
-          <p className={styles.titleName}>28.04.1992</p>
-        </div>
-        <div className={styles.title}>
-          Marital status:
-          <p className={styles.titleName}>Married (two children)</p>
-        </div>
+        {personalInformation.map((item, index) => {
+          return (
+            <div className={styles.title} key={index}>
+              {t(item.title)}
+              <p className={styles.titleName}>{t(item.titleName)}</p>
+            </div>
+          );
+        })}
       </div>
     </section>
   );

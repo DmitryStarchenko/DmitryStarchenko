@@ -44,4 +44,5 @@
   margin: 0;
   font-size: 17px;
   color: rgb(104, 104, 104);
+  white-space: pre-line;
 }

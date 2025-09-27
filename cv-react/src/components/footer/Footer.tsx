@@ -1,6 +1,9 @@
+import { useTranslation } from "react-i18next";
 import styles from "./Footer.module.css";
 
 const Footer = () => {
+  const { t } = useTranslation();
+
   return (
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
@@ -9,7 +12,7 @@ const Footer = () => {
           className={styles.footerName}
           target="_blank"
         >
-          Dmitry Starchenko
+          {t("Name")}
         </a>
         <div className={styles.updateDate}>26.09.2025</div>
       </div>

@@ -25,18 +25,21 @@
   margin: 0 0 10px 0;
   font-family: Roboto;
 }
+
 .contacts {
   display: flex;
   flex-direction: row;
   align-items: center;
   height: 20px;
 }
+
 .imageContacts {
   width: 20px;
   height: 20px;
   border-radius: 30px;
   margin-right: 5px;
 }
+
 .textContacts {
   text-decoration: none;
   font-size: 13px;
@@ -46,15 +49,18 @@
     color: rgb(81, 81, 250);
   }
 }
+
 .avatar {
   width: 250px;
   border-radius: 150px;
 }
+
 .navigation {
   display: flex;
   justify-content: end;
   width: 40%;
 }
+
 .navigationList {
   display: flex;
   flex-direction: column;
@@ -62,9 +68,11 @@
   gap: 3px;
   padding: 0;
 }
+
 .navigationItem {
   text-align: right;
 }
+
 .navigationLink {
   text-decoration: none;
   color: black;
@@ -74,4 +82,34 @@
   &:hover {
     color: rgb(81, 81, 250);
   }
+}
+
+.langContainer {
+  display: flex;
+  position: absolute;
+  height: 25px;
+  top: 15px;
+  right: 30px;
+  border: 1px solid white;
+}
+
+.buttonLangRU,
+.buttonLangEN {
+  border: none;
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+
+  &:hover {
+    color: rgb(81, 81, 250);
+  }
+
+  &:disabled {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(153, 153, 153);
+    cursor: auto;
+  }
+}
+
+.buttonLangEN {
+  border-right: 1px solid white;
 }

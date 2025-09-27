@@ -1,20 +1,19 @@
 import type { ReactNode } from "react";
 import { skills } from "../../../../constants/constants";
 import styles from "./Skills.module.css";
+import { useTranslation } from "react-i18next";
 
 const Skills = () => {
+  const { t } = useTranslation();
+
   return (
     <section id="skills" className={styles.section}>
-      <h2 className={styles.sectionTitle}>Skills</h2>
+      <h2 className={styles.sectionTitle}>{t("Skills")}</h2>
       <div className={styles.sectionContainer}>
         <div className={styles.skillsContent}>
-          <h3 className={styles.skillsTitle}>Knowledge of languages</h3>
-          <div className={styles.skillsDescription}>
-            Russian - native <br />
-            Belarusian - native <br />
-            English - A1
-          </div>
-          <h3 className={styles.skillsTitle}>Skills</h3>
+          <h3 className={styles.skillsTitle}>{t("Knowledge")}</h3>
+          <div className={styles.skillsDescription}>{t("lang")}</div>
+          <h3 className={styles.skillsTitle}>{t("Skills")}</h3>
           <div className={styles.description}>
             {skills.map((item, index): ReactNode => {
               return (
