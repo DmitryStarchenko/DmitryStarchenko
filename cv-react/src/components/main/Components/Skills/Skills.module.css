@@ -22,8 +22,6 @@
 
 .description {
   margin: 0;
-  font-size: 17px;
-  color: rgb(104, 104, 104);
 }
 
 .skillsTitle {
@@ -32,6 +30,7 @@
 
 .icon {
   width: 50px;
+  margin-right: 5px;
 }
 
 .skillsDescription {

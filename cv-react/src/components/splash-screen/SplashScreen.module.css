@@ -1,0 +1,39 @@
+.splashScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.helloText {
+  font-size: 15rem;
+  font-weight: bold;
+  font-family: "Birthstone", cursive;
+  color: #333;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease-in-out;
+}
+
+.helloText.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .helloText {
+    font-size: 8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .helloText {
+    font-size: 6rem;
+  }
+}

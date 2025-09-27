@@ -8,9 +8,9 @@ const CompactHeader = () => {
   const { t } = useTranslation();
   const [isVisible, setIsVisible] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const [activeMenu, setActiveMenu] = useState<
-    "contacts" | "navigation" | null
-  >(null);
+  const [activeMenu, setActiveMenu] = useState<"contacts" | "menu" | null>(
+    null
+  );
 
   const contactsMenuRef = useRef<HTMLDivElement>(null);
   const navigationMenuRef = useRef<HTMLDivElement>(null);
@@ -39,7 +39,7 @@ const CompactHeader = () => {
       }
 
       if (
-        activeMenu === "navigation" &&
+        activeMenu === "menu" &&
         !navigationMenuRef.current?.contains(target) &&
         !navigationButtonRef.current?.contains(target)
       ) {
@@ -56,7 +56,7 @@ const CompactHeader = () => {
     return () => window.removeEventListener("scroll", controlHeader);
   }, [lastScrollY]);
 
-  const toggleMenu = (menu: "contacts" | "navigation") => {
+  const toggleMenu = (menu: "contacts" | "menu") => {
     setActiveMenu(activeMenu === menu ? null : menu);
   };
 
@@ -65,7 +65,7 @@ const CompactHeader = () => {
   };
 
   const isContactsOpen = activeMenu === "contacts";
-  const isNavigationOpen = activeMenu === "navigation";
+  const isNavigationOpen = activeMenu === "menu";
 
   return (
     <header
@@ -116,7 +116,7 @@ const CompactHeader = () => {
             className={`${styles.burgerButton} ${
               isNavigationOpen ? styles.burgerButtonActive : ""
             }`}
-            onClick={() => toggleMenu("navigation")}
+            onClick={() => toggleMenu("menu")}
             aria-label="Menu"
             aria-expanded={isNavigationOpen}
           >
