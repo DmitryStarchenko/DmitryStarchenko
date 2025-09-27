@@ -1,17 +1,10 @@
 import { useTranslation } from "react-i18next";
 import styles from "./Header.module.css";
-import i18next from "i18next";
-import { useState } from "react";
 import { contacts, navigation } from "../../constants/constants";
+import LangSwitcher from "./LangSwitcher";
 
 const Header = () => {
   const { t } = useTranslation();
-  const [disabled, setDisabled] = useState(true);
-
-  const changeLang = (lang: string) => {
-    i18next.changeLanguage(lang);
-    setDisabled(!disabled);
-  };
 
   return (
     <header className={styles.header}>
@@ -51,22 +44,7 @@ const Header = () => {
           })}
         </ul>
       </nav>
-      <div className={styles.langContainer}>
-        <button
-          className={styles.buttonLangEN}
-          onClick={() => changeLang("en")}
-          disabled={disabled}
-        >
-          EN
-        </button>
-        <button
-          className={styles.buttonLangRU}
-          onClick={() => changeLang("ru")}
-          disabled={!disabled}
-        >
-          RU
-        </button>
-      </div>
+      <LangSwitcher />
     </header>
   );
 };

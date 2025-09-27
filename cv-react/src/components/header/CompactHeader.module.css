@@ -1,0 +1,128 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.288);
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+  padding: 5px 0;
+}
+
+.headerVisible {
+  transform: translateY(0);
+}
+
+.headerHidden {
+  transform: translateY(-100%);
+}
+
+.headerLeft {
+  display: flex;
+  gap: 1rem;
+  margin-left: 15px;
+}
+
+.burgerMenu {
+  position: relative;
+}
+
+.burgerButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+  font-size: 17px;
+  transition: color 0.3s ease;
+}
+
+.burgerButton:hover {
+  color: rgb(81, 81, 250);
+}
+
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  min-width: 200px;
+  z-index: 1001;
+  margin-top: 10px;
+  animation: fadeIn 0.2s ease-in-out;
+}
+
+.menuContent {
+  padding: 15px;
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  gap: 10px;
+}
+
+.navigationItem {
+  padding: 8px 0;
+}
+
+.imageContacts {
+  width: 25px;
+  height: 25px;
+  border-radius: 30px;
+}
+
+.textContacts,
+.navigationLink {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  transition: color 0.3s ease;
+}
+
+.textContacts:hover,
+.navigationLink:hover {
+  color: rgb(81, 81, 250);
+}
+
+.navigationLink {
+  display: block;
+  padding: 5px 0;
+  font-family: Roboto;
+  font-size: 16px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .dropdownMenu {
+    position: fixed;
+    left: 10px;
+    right: 10px;
+    width: auto;
+  }
+
+  .headerLeft {
+    margin-left: 10px;
+  }
+
+  .langContainer {
+    margin-right: 10px;
+  }
+}

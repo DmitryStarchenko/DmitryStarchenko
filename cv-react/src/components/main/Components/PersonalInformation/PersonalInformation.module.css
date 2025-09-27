@@ -30,3 +30,13 @@
   margin-left: 7px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 430px) {
+  .title {
+    font-size: 15px;
+  }
+
+  .sectionContent {
+    padding: 0;
+  }
+}

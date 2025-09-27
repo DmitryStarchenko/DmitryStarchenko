@@ -46,3 +46,14 @@
   color: rgb(104, 104, 104);
   white-space: pre-line;
 }
+
+@media screen and (max-width: 415px) {
+  .years {
+    font-size: 15px;
+    margin-right: 0;
+  }
+
+  .experienceTitle {
+    font-size: 20px;
+  }
+}

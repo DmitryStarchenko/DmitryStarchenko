@@ -113,3 +113,48 @@
 .buttonLangEN {
   border-right: 1px solid white;
 }
+
+@media screen and (max-width: 540px) {
+  .header {
+    flex-direction: column;
+    height: 480px;
+  }
+
+  .profile {
+    width: 80%;
+  }
+
+  .navigation {
+    justify-content: start;
+    width: 80%;
+  }
+
+  .navigationItem {
+    text-align: left;
+  }
+
+  .navigationLink {
+    font-size: 15px;
+  }
+
+  .avatar {
+    width: 200px;
+    border-radius: 150px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .header {
+    height: 480px;
+  }
+
+  .name {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header {
+    height: 510px;
+  }
+}

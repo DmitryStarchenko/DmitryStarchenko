@@ -16,3 +16,15 @@ body {
   border-left: 5px solid white;
   border-right: 5px solid white;
 }
+
+@media screen and (max-width: 1024px) {
+  body {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  body {
+    width: 90%;
+  }
+}

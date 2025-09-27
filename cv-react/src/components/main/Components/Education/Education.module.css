@@ -53,3 +53,14 @@
 .institution {
   width: 75%;
 }
+
+@media screen and (max-width: 415px) {
+  .years {
+    font-size: 15px;
+    margin-right: 0;
+  }
+
+  .educationTitle {
+    font-size: 20px;
+  }
+}
