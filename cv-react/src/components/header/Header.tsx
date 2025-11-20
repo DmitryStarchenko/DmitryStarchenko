@@ -1,7 +1,8 @@
 import { useTranslation } from "react-i18next";
 import styles from "./Header.module.css";
-import { contacts, navigation } from "../../constants/constants";
 import LangSwitcher from "./LangSwitcher";
+import { contacts } from "../../constants/Contacts";
+import { navigation } from "../../constants/Navigation";
 
 const Header = () => {
   const { t } = useTranslation();

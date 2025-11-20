@@ -1,8 +1,9 @@
 import { useState, useEffect, useRef } from "react";
-import { contacts, navigation } from "../../constants/constants";
 import styles from "./CompactHeader.module.css";
 import { useTranslation } from "react-i18next";
 import LangSwitcher from "./LangSwitcher";
+import { contacts } from "../../constants/Contacts";
+import { navigation } from "../../constants/Navigation";
 
 const CompactHeader = () => {
   const { t } = useTranslation();

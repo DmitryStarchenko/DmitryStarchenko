@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
-import { skills } from "../../../../constants/constants";
 import styles from "./Skills.module.css";
 import { useTranslation } from "react-i18next";
+import { skills } from "../../../../constants/Skills";
 
 const Skills = () => {
   const { t } = useTranslation();

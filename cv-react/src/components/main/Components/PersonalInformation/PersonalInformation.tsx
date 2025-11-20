@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import { personalInformation } from "../../../../constants/constants";
 import styles from "./PersonalInformation.module.css";
+import { personalInformation } from "../../../../constants/PersonalInfo";
 
 const PersonalInformation = () => {
   const { t } = useTranslation();
