@@ -14,7 +14,7 @@ const Footer = () => {
         >
           {t("Name")}
         </a>
-        <div className={styles.updateDate}>26.09.2025</div>
+        <div className={styles.updateDate}>30.12.2025</div>
       </div>
     </footer>
   );

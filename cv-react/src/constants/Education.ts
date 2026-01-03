@@ -3,12 +3,13 @@ import { school } from "./constants";
 
 const certificateJs = "https://app.rs.school/certificate/tk58l9nn";
 const certificateReact = "https://app.rs.school/certificate/h3exhhhe";
+const certificateNode = "https://app.rs.school/certificate/suvpdoc2";
 
 export const dataNode: IEducation = {
   school: school,
-  years: "10.2025 - to date",
+  years: "10.2025 - 12.2025",
   course: "Node JS",
-  urlCertificate: undefined,
+  urlCertificate: certificateNode,
 };
 
 export const dataReact: IEducation = {

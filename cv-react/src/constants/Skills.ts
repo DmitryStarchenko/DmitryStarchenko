@@ -16,14 +16,24 @@ export const skills = [
   },
   { src: "./assets/skills/css3-plain-wordmark.svg", alt: "css", title: "css3" },
   {
+    src: "./assets/skills/react-original-wordmark.svg",
+    alt: "react",
+    title: "react",
+  },
+  {
     src: "./assets/skills/nextjs-original.svg",
     alt: "nextjs",
     title: "nextjs",
   },
   {
-    src: "./assets/skills/react-original-wordmark.svg",
-    alt: "react",
-    title: "react",
+    src: "./assets/skills/nodejs-original-wordmark.svg",
+    alt: "node",
+    title: "nodejs",
+  },
+  {
+    src: "./assets/skills/nestjs-original-wordmark.svg",
+    alt: "nest",
+    title: "nest",
   },
   {
     src: "./assets/skills/reactrouter-original.svg",
@@ -41,14 +51,24 @@ export const skills = [
     title: "supabase",
   },
   {
+    src: "./assets/skills/graphql-plain.svg",
+    alt: "graphql",
+    title: "graphql",
+  },
+  {
+    src: "./assets/skills/postgresql-original.svg",
+    alt: "postgresql",
+    title: "postgresql",
+  },
+  {
+    src: "./assets/skills/docker-original.svg",
+    alt: "docker",
+    title: "docker",
+  },
+  {
     src: "./assets/skills/sass-original.svg",
     alt: "sass",
     title: "sass",
-  },
-  {
-    src: "./assets/skills/nodejs-original-wordmark.svg",
-    alt: "node",
-    title: "nodejs",
   },
   {
     src: "./assets/skills/npm-original-wordmark.svg",
