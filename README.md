@@ -9,4 +9,4 @@
 [![Email](https://img.shields.io/badge/Email-%23333A45.svg?style=for-the-badge&logo=gmail&logoColor=blue&labelColor=333A45)](mailto:dololob92@gmail.com)
 [![Discord](https://img.shields.io/badge/Discord-%23333A45.svg?style=for-the-badge&logo=discord&logoColor=blue&labelColor=333A45)](https://discordapp.com/users/oloolo)
 [![Telegram](https://img.shields.io/badge/Telegram-%23333A45.svg?style=for-the-badge&logo=telegram&logoColor=blue&labelColor=333A45)](https://t.me/BazZ)
-[![LinkedIn](https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/linkedin/linkedin-original.svg?style=for-the-badge&logo=linked&logoColor=blue&labelColor=333A45)](https://www.linkedin.com/in/dmitry-starchenko-jfd/)
+[![LinkedIn](https://raw.githubusercontent.com/devicons/devicon/54cfe13ac10eaa1ef817a343ab0a9437eb3c2e08/icons/linkedin/linkedin-original.svg?size=50)](https://www.linkedin.com/in/dmitry-starchenko-jfd/)
