@@ -4,7 +4,7 @@ import { school } from "./constants";
 const certificateJs = "https://app.rs.school/certificate/tk58l9nn";
 const certificateReact = "https://app.rs.school/certificate/h3exhhhe";
 const certificateNode = "https://app.rs.school/certificate/suvpdoc2";
-const certificateReactAston = "../../public/assets/certificate/react aston.pdf";
+const certificateReactAston = "../../assets/certificate/react aston.pdf";
 
 export const dataReactAston: IEducation = {
   school: "Aston",
