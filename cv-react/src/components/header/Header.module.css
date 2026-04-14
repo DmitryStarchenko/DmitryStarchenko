@@ -54,6 +54,65 @@
   width: 250px;
   border-radius: 150px;
   cursor: pointer;
+  z-index: 4;
+}
+
+.oval1,
+.oval2,
+.oval3,
+.oval4 {
+  left: 800px;
+  position: absolute;
+  width: 290px;
+  height: 200px;
+  padding: 0;
+  margin: 0;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.oval1 {
+  animation: rotate-right 12s linear infinite;
+}
+
+.oval2 {
+  left: 850px;
+  width: 200px;
+  height: 290px;
+  animation: rotate-right 10s linear infinite;
+}
+
+.oval3 {
+  left: 850px;
+  width: 220px;
+  height: 280px;
+  animation: rotate-left 8s linear infinite;
+}
+
+.oval4 {
+  left: 840px;
+  width: 200px;
+  height: 300px;
+  animation: rotate-left 11s linear infinite;
+}
+
+@keyframes rotate-right {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-left {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .buttonOpenSlide {
@@ -76,6 +135,7 @@
   width: 100%;
   height: 100vh;
   background-color: rgba(0, 0, 0, 0.719);
+  z-index: 10;
 }
 
 .sliderSwapper {
@@ -85,7 +145,7 @@
 }
 
 .sliderAvatar {
-  width: 50%;
+  width: 40%;
 }
 
 .navigation {
