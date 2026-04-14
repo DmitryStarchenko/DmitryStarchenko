@@ -3,6 +3,7 @@ import styles from "./Header.module.css";
 import LangSwitcher from "./LangSwitcher";
 import { contacts } from "../../constants/Contacts";
 import { navigation } from "../../constants/Navigation";
+import { Avatar } from "./Avatar";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -27,11 +28,7 @@ const Header = () => {
           );
         })}
       </div>
-      <img
-        src="../../../assets/avatar.jpg"
-        alt="avatar"
-        className={styles.avatar}
-      />
+      <Avatar />
       <nav className={styles.navigation}>
         <ul className={styles.navigationList}>
           {navigation.map((item, index) => {
