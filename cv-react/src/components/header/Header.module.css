@@ -50,6 +50,13 @@
   }
 }
 
+.avatarContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .avatar {
   width: 250px;
   border-radius: 150px;
@@ -61,7 +68,6 @@
 .oval2,
 .oval3,
 .oval4 {
-  left: 800px;
   position: absolute;
   width: 290px;
   height: 200px;
@@ -73,28 +79,25 @@
 }
 
 .oval1 {
-  animation: rotate-right 12s linear infinite;
+  animation: rotate-right 14s linear infinite;
 }
 
 .oval2 {
-  left: 850px;
   width: 200px;
-  height: 290px;
-  animation: rotate-right 10s linear infinite;
+  height: 285px;
+  animation: rotate-right 9s linear infinite;
 }
 
 .oval3 {
-  left: 850px;
   width: 220px;
-  height: 280px;
-  animation: rotate-left 8s linear infinite;
+  height: 270px;
+  animation: rotate-left 9s linear infinite;
 }
 
 .oval4 {
-  left: 840px;
   width: 200px;
   height: 300px;
-  animation: rotate-left 11s linear infinite;
+  animation: rotate-left 16s linear infinite;
 }
 
 @keyframes rotate-right {

@@ -25,16 +25,18 @@ export const Avatar = () => {
 
   return (
     <>
-      <div className={styles.oval1}></div>
-      <div className={styles.oval2}></div>
-      <div className={styles.oval3}></div>
-      <div className={styles.oval4}></div>
-      <img
-        onClick={() => setIsOpen(!isOpen)}
-        src="../../../assets/avatar.jpg"
-        alt="avatar"
-        className={styles.avatar}
-      />
+      <div className={styles.avatarContainer}>
+        <div className={styles.oval1}></div>
+        <div className={styles.oval2}></div>
+        <div className={styles.oval3}></div>
+        <div className={styles.oval4}></div>
+        <img
+          onClick={() => setIsOpen(!isOpen)}
+          src="../../../assets/avatar.jpg"
+          alt="avatar"
+          className={styles.avatar}
+        />
+      </div>
       {isOpen && <SwiperElem />}
     </>
   );
