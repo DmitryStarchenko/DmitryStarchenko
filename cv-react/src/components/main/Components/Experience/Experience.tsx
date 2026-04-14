@@ -10,6 +10,13 @@ const Experience = () => {
       <h2 className={styles.sectionTitle}>{t("Experience")}</h2>
       <div className={styles.sectionContainer}>
         <div className={styles.experienceContent}>
+          <div className={styles.years}>03.2026 - 04.2026</div>
+          <div className={styles.institution}>
+            <h2 className={styles.experienceTitle}>Aston</h2>
+            <p className={styles.description}>{t("ExpDescReactAston")}</p>
+          </div>
+        </div>
+        <div className={styles.experienceContent}>
           <div className={styles.years}>10.2025 - 12.2025</div>
           <div className={styles.institution}>
             <h2 className={styles.experienceTitle}>{school}</h2>

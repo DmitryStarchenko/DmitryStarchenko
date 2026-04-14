@@ -1,7 +1,12 @@
 import { useTranslation } from "react-i18next";
 import styles from "./Education.module.css";
 import EducationUtils from "../Utils/UEducation";
-import { dataJS, dataNode, dataReact } from "../../../../constants/Education";
+import {
+  dataJS,
+  dataNode,
+  dataReact,
+  dataReactAston,
+} from "../../../../constants/Education";
 
 const Education = () => {
   const { t } = useTranslation();
@@ -10,6 +15,7 @@ const Education = () => {
     <section id="education" className={styles.section}>
       <h2 className={styles.sectionTitle}>{t("Education")}</h2>
       <div className={styles.sectionContainer}>
+        {EducationUtils(dataReactAston, styles)}
         {EducationUtils(dataNode, styles)}
         {EducationUtils(dataReact, styles)}
         {EducationUtils(dataJS, styles)}
