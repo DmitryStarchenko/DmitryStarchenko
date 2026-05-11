@@ -73,7 +73,8 @@
   border: 2px solid white;
   border-radius: 10px;
   padding: 10px;
-  max-width: 35%;
+  min-width: 265px;
+  width: 35%;
 }
 .certificateCurses {
 }
@@ -89,5 +90,11 @@
 
   .educationTitle {
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 725px) {
+  .sectionContainer {
+    width: 90%;
   }
 }

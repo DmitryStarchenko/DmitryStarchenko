@@ -40,11 +40,7 @@ const Header = () => {
           {navigation.map((item, index) => {
             return (
               <li className={styles.navigationItem} key={index}>
-                <a
-                  href={item.href}
-                  className={styles.navigationLink}
-                  target="_blank"
-                >
+                <a href={item.href} className={styles.navigationLink}>
                   {t(item.text)}
                 </a>
               </li>

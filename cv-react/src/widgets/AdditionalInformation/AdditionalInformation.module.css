@@ -34,3 +34,9 @@
   width: 90%;
   white-space: pre-line;
 }
+
+@media screen and (max-width: 725px) {
+  .sectionContainer {
+    width: 90%;
+  }
+}
