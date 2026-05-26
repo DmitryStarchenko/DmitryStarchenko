@@ -76,8 +76,7 @@ Production-like eCommerce application with authentication, product catalog, filt
 ### Stack
 React • TypeScript • RTK Query • MUI • CommerceTools • Vitest
 
-🔗 Live Demo  
-https://ecommerce-shop-rss2024.netlify.app/
+[🔗 Live Demo](https://ecommerce-shop-rss2024.netlify.app/)
 
 ---
 
@@ -88,8 +87,7 @@ Modern Next.js application with localization, scalable architecture and API inte
 ### Stack
 Next.js • TypeScript • Supabase • MUI • Vitest
 
-🔗 Live Demo  
-https://putman.vercel.app/
+[🔗 Live Demo](https://putman.vercel.app/)
 
 ---
 
@@ -97,8 +95,7 @@ https://putman.vercel.app/
 
 Interactive React application with API integration and responsive UI.
 
-🔗 Live Demo  
-https://pokemon-react-2025.netlify.app/
+[🔗 Live Demo](https://pokemon-react-2025.netlify.app/)
 
 ---
 
