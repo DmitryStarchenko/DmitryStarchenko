@@ -102,16 +102,6 @@ https://pokemon-react-2025.netlify.app/
 
 ---
 
-# 📊 GitHub Stats
-
-<div align="center">
-
-<img width="70%" src="https://streak-stats.demolab.com?user=DmitryStarchenko&theme=github-dark-blue&hide_border=true"/>
-
-</div>
-
----
-
 # 🔥 GitHub Streak
 
 <div align="center">
