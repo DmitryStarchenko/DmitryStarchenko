@@ -106,9 +106,7 @@ https://pokemon-react-2025.netlify.app/
 
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=DmitryStarchenko&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true"/>
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DmitryStarchenko&layout=compact&theme=github_dark&hide_border=true"/>
+<img width="70%" src="https://streak-stats.demolab.com?user=DmitryStarchenko&theme=github-dark-blue&hide_border=true"/>
 
 </div>
 
