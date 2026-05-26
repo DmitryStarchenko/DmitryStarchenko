@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=Frontend+Developer;React+%2F+TypeScript+Engineer;Next.js+Enthusiast;Building+Modern+Web+Apps" />
+</p>
+
 <div align="center">
 
 # Hi there, I'm Dmitry 👋
@@ -58,7 +62,7 @@ Frontend Developer focused on building modern, scalable and production-ready web
 ## Tools & Testing
 
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,jest,vscode,figma,linux" />
+  <img src="https://skillicons.dev/icons?i=git,github,jest,vscode,figma" />
 </p>
 
 ---
@@ -102,9 +106,9 @@ https://pokemon-react-2025.netlify.app/
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=DmitryStarchenko&show_icons=true&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=DmitryStarchenko&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DmitryStarchenko&layout=compact&theme=tokyonight&hide_border=true"/>
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DmitryStarchenko&layout=compact&theme=github_dark&hide_border=true"/>
 
 </div>
 
