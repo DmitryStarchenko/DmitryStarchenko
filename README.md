@@ -74,9 +74,9 @@ Frontend Developer focused on building modern, scalable and production-ready web
 Production-like eCommerce application with authentication, product catalog, filters and cart functionality.
 
 ### Stack
-React • TypeScript • RTK Query • MUI • CommerceTools • Vitest
+React • TypeScript • RTK Query • NestJS • Vite • MUI
 
-[🔗 Live Demo](https://ecommerce-shop-rss2024.netlify.app/)
+[🔗 Live Demo](https://ecommerce-application-lumw.onrender.com/)
 
 ---
 
