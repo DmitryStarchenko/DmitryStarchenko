@@ -15,19 +15,9 @@ const AdditionalInformation = () => {
           <p className={styles.informationDescription}>{t("lang")}</p>
         </div>
         <div>
-          <div className={styles.informationTitle}>
-            {t("informationTitleTwo")}
-          </div>
+          <div className={styles.informationTitle}>{t("aboutMeTitle")}</div>
           <p className={styles.informationDescription}>
-            {t("informationDescriptionOne")}
-          </p>
-        </div>
-        <div>
-          <div className={styles.informationTitle}>
-            {t("informationTitleThree")}
-          </div>
-          <p className={styles.informationDescription}>
-            {t("informationDescriptionTwo")}
+            {t("aboutMeDescription")}
           </p>
         </div>
       </div>

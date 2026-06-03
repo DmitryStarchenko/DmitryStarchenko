@@ -13,7 +13,7 @@ const Header = () => {
       <div className={styles.profile}>
         <h1 className={styles.name}>{t("Name")}</h1>
         <h4 className={styles.jobTitle}>
-          Junior Frontend Developer (React / Next.js)
+          Frontend Developer (React / Next.js)
         </h4>
         {contacts.map((item, index) => {
           return (

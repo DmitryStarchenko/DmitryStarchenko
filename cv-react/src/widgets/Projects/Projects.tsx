@@ -10,9 +10,9 @@ const Projects = () => {
     <section id="projects" className={styles.section}>
       <h2 className={styles.sectionTitle}>{t("Projects")}</h2>
       <ul className={styles.projectsList}>
-        {UProjects(dataProjects.dataECommerce, styles)}
-        {UProjects(dataProjects.dataPutman, styles)}
-        {UProjects(dataProjects.dataPokemons, styles)}
+        {Object.values(dataProjects).map((project) => (
+          <UProjects key={project.name} data={project} styles={styles} />
+        ))}
       </ul>
     </section>
   );

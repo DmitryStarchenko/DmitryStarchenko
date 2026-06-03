@@ -1,25 +1,44 @@
 export type Data = {
   name: string;
   url: string;
+  description: string;
+  stack: string[];
 };
 
 type Project = {
-  dataECommerce: Data;
-  dataPutman: Data;
-  dataPokemons: Data;
+  [key: string]: Data;
 };
 
 export const dataProjects: Project = {
-  dataECommerce: {
-    name: "eCommerce application shop",
-    url: "https://ecommerce-shop-rss2024.netlify.app/main",
-  },
-  dataPutman: {
+  putman: {
     name: "Putman",
     url: "https://putman.vercel.app/",
+    description: "projectPutmanDescription",
+    stack: [
+      "Next.js",
+      "TypeScript",
+      "MUI",
+      "Supabase",
+      "Jotai",
+      "Vitest",
+      "next-intl",
+      "Zod",
+      "Axios",
+    ],
   },
-  dataPokemons: {
-    name: "Pokemons React",
-    url: "https://pokemon-react-2025.netlify.app/",
+  eCommerce: {
+    name: "eCommerce application shop",
+    url: "https://ecommerce-application-lumw.onrender.com/",
+    description: "projectECommerceDescription",
+    stack: [
+      "React",
+      "TypeScript",
+      "Commercetools",
+      "React Router",
+      "NestJS",
+      "MUI",
+      "Vite",
+      "Vitest",
+    ],
   },
 };

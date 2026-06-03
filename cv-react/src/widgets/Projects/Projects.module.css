@@ -13,14 +13,37 @@
 }
 
 .projectsList {
+  width: 80%;
   color: rgb(104, 104, 104);
 }
 
 .projectsLink {
   text-decoration: none;
   font-size: 20px;
-  color: rgb(104, 104, 104);
+  color: rgb(0, 0, 0);
   &:hover {
     color: rgb(81, 81, 250);
   }
+}
+
+.projectDescription {
+  font-size: 16px;
+  color: rgb(104, 104, 104);
+  margin-top: 10px;
+  white-space: pre-line;
+}
+
+.stackContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.stackItem {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 14px;
 }

@@ -1,6 +1,5 @@
 import { useTranslation } from "react-i18next";
 import styles from "./Experience.module.css";
-import { RSSchool } from "../../shared/constants/School";
 
 const Experience = () => {
   const { t } = useTranslation();
@@ -10,35 +9,59 @@ const Experience = () => {
       <h2 className={styles.sectionTitle}>{t("Experience")}</h2>
       <div className={styles.sectionContainer}>
         <div className={styles.experienceContent}>
-          <div className={styles.years}>03.2026 - 04.2026</div>
+          <div className={styles.years}>{t("AstonDate")}</div>
           <div className={styles.institution}>
-            <h2 className={styles.experienceTitle}>{t("ExpTitleReactAst")}</h2>
-            <p className={styles.experienceSchool}>{t("ExpSchoolReactAst")}</p>
-            <p className={styles.description}>{t("ExpDescReactAston")}</p>
+            <h2 className={styles.experienceTitle}>
+              {t("AstonReactDeveloperTitle")}
+            </h2>
+            <p className={styles.experienceSchool}>
+              {t("AstonReactDeveloperSchool")}
+            </p>
+            <p className={styles.description}>
+              {t("AstonReactDeveloperDescription")}
+            </p>
           </div>
         </div>
         <div className={styles.experienceContent}>
-          <div className={styles.years}>10.2025 - 12.2025</div>
+          <div className={styles.years}>{t("FullstackDate")}</div>
           <div className={styles.institution}>
-            <h2 className={styles.experienceTitle}>{t("ExpTitleNode")}</h2>
-            <p className={styles.experienceSchool}>{RSSchool}</p>
-            <p className={styles.description}>{t("ExpDescNode")}</p>
+            <h2 className={styles.experienceTitle}>
+              {t("FullstackDeveloperTitle")}
+            </h2>
+            <p className={styles.experienceSchool}>
+              {t("FullstackDeveloperSchool")}
+            </p>
+            <p className={styles.description}>
+              {t("FullstackDeveloperDescription")}
+            </p>
           </div>
         </div>
         <div className={styles.experienceContent}>
-          <div className={styles.years}>07.2025 - 09.2025</div>
+          <div className={styles.years}>{t("NextJSDate")}</div>
           <div className={styles.institution}>
-            <h2 className={styles.experienceTitle}>{t("ExpTitleReact")}</h2>
-            <p className={styles.experienceSchool}>{RSSchool}</p>
-            <p className={styles.description}>{t("ExpDescReact")}</p>
+            <h2 className={styles.experienceTitle}>
+              {t("NextJSDeveloperTitle")}
+            </h2>
+            <p className={styles.experienceSchool}>
+              {t("NextJSDeveloperSchool")}
+            </p>
+            <p className={styles.description}>
+              {t("NextJSDeveloperDescription")}
+            </p>
           </div>
         </div>
         <div className={styles.experienceContent}>
-          <div className={styles.years}>11.2024 - 07.2025</div>
+          <div className={styles.years}>{t("FrontendDate")}</div>
           <div className={styles.institution}>
-            <h2 className={styles.experienceTitle}>{t("ExpTitleJS")}</h2>
-            <p className={styles.experienceSchool}>{RSSchool}</p>
-            <p className={styles.description}>{t("ExpDescJs")}</p>
+            <h2 className={styles.experienceTitle}>
+              {t("FrontendDeveloperTitle")}
+            </h2>
+            <p className={styles.experienceSchool}>
+              {t("FrontendDeveloperSchool")}
+            </p>
+            <p className={styles.description}>
+              {t("FrontendDeveloperDescription")}
+            </p>
           </div>
         </div>
       </div>
