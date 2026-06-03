@@ -18,7 +18,7 @@ export const Avatar = (prop: Prop) => {
       >
         <SwiperSlide className={styles.sliderSwapper}>
           <img
-            src="../../../assets/avatar.jpg"
+            src="../../../assets/avatar.png"
             alt="avatar"
             className={styles.sliderAvatar}
           />
@@ -36,7 +36,7 @@ export const Avatar = (prop: Prop) => {
         <div className={styles.oval4}></div>
         <img
           onClick={() => setIsOpen(!isOpen)}
-          src="../../../assets/avatar.jpg"
+          src="../../../assets/avatar.png"
           alt="avatar"
           className={styles.avatar}
         />
